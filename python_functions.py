@@ -10,3 +10,8 @@ def largest(nums):
   return largest_num
 
 
+def occurrences(string_one, string_two):
+  occurs = string_one.count(string_two)
+  return occurs
+
+
