@@ -4,3 +4,9 @@ def sum_to(n):
     sum = sum + i
   return sum
 
+
+def largest(nums):
+  largest_num = max(nums)
+  return largest_num
+
+
