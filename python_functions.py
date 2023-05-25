@@ -15,3 +15,8 @@ def occurrences(string_one, string_two):
   return occurs
 
 
+def product(*args):
+  total = 1
+  for arg in args:
+    total *= arg
+  return total
